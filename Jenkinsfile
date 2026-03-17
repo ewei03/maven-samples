@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   tools { 
-    maven 'DHT_MVN'
-    jdk 'DHT_SENSE'
+    maven 'mvn'
+    jdk 'jdk'
   }
 
   stages {
